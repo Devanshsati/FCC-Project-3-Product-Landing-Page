@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: aliceblue;
+}
+
+#page{
+  position: relative;
+}
+
+header{
+  position: fixed;
+  background-color: #eee;
+  width: -webkit-fill-available;
+}
+
+img{
+  width: 450px;
+}
+
+#nav-bar{
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+.navlist{
+  display: inline;
+  margin: 50px;
+  align-items: left;
+  font-size: large;
+}
+
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: orangered;
+}
+
+.container {
+  padding-top: 100px;
+  align-items: center;
+  text-align: center;
+  }
+  
