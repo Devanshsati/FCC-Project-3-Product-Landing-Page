@@ -17,12 +17,14 @@ body {
 
 header{
   position: fixed;
+  display: flex;
   background-color: #eee;
   width: -webkit-fill-available;
 }
 
 img{
   width: 450px;
+  align-items: baseline;
 }
 
 #nav-bar{
@@ -33,11 +35,9 @@ img{
 
 .navlist{
   display: inline;
-  margin: 50px;
-  align-items: left;
+  margin: 25px;
   font-size: large;
 }
-
 
 a {
   color: #000;
@@ -54,3 +54,28 @@ a:hover{
   text-align: center;
   }
   
+#area{
+  margin-bottom: 30px;
+  color: orangered;
+}
+
+.first{
+  margin-bottom: 20px;
+  font-size: 170%;
+}
+
+.insert{
+  display: block;
+  font-size: 100%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#submit{
+  margin-bottom: 100px;
+}
+
+input{
+  width: 50%;
+  height: 30px;
+}
