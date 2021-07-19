@@ -140,3 +140,9 @@ footer{
 footer > ul{
   display: flex;
 }
+
+@media (min-width: 640px) {
+
+  
+  
+}
