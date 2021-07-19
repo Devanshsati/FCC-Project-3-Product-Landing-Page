@@ -100,3 +100,43 @@ iframe{
   margin-bottom: 60px;
 }
 
+#pricing{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.product{
+  margin: 40px;
+  border-style: solid;
+  width: 300px;
+}
+
+.level{
+  background-color: greenyellow;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+h2,li{
+  text-align: center;
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+
+.btn{
+  margin: 10px 0 0px 0;
+  width: 100%;
+  border-style: none;
+  height: 30px;
+  background-color: orange;
+}
+
+footer{
+  background-color: aquamarine;
+}
+
+footer > ul{
+  display: flex;
+}
