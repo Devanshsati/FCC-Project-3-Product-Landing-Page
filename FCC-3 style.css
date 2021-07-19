@@ -73,9 +73,30 @@ a:hover{
 
 #submit{
   margin-bottom: 100px;
+  width: 18%;
+  background-color: rgb(255, 174, 0);
+  border-style: none;
+  font-weight: bolder;
 }
 
 input{
-  width: 50%;
+  width: 25%;
+  border-radius: 5px;
   height: 30px;
 }
+
+#feature{
+  display: block;
+  font-size: larger;
+  margin-bottom: 30px;
+}
+
+.h2,p{
+  padding-bottom: 40px;
+}
+
+iframe{
+  width: 40%;
+  margin-bottom: 60px;
+}
+
